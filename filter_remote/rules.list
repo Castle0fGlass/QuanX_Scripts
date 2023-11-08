@@ -1,783 +1,783 @@
 # BT
-HOST-SUFFIX,qbittorrent.org,DIRECT
-HOST-KEYWORD,aria2,DIRECT
-HOST-KEYWORD,thunder,DIRECT
-HOST-KEYWORD,xlliveud,DIRECT
-HOST-KEYWORD,xunlei,DIRECT
-HOST-KEYWORD,yunpan,DIRECT
+HOST-SUFFIX, qbittorrent.org, direct
+HOST-KEYWORD, aria2, direct
+HOST-KEYWORD, thunder, direct
+HOST-KEYWORD, xlliveud, direct
+HOST-KEYWORD, xunlei, direct
+HOST-KEYWORD, yunpan, direct
 
 # check first
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,baidu.com,DIRECT
-HOST-SUFFIX,weibo.com,DIRECT
-HOST-SUFFIX,jd.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,360.cn,DIRECT
-HOST-SUFFIX,zhihu.com,DIRECT
-HOST-SUFFIX,com.cn,DIRECT
+HOST-SUFFIX, qq.com, direct
+HOST-SUFFIX, taobao.com, direct
+HOST-SUFFIX, baidu.com, direct
+HOST-SUFFIX, weibo.com, direct
+HOST-SUFFIX, jd.com, direct
+HOST-SUFFIX, tmall.com, direct
+HOST-SUFFIX, 360.cn, direct
+HOST-SUFFIX, zhihu.com, direct
+HOST-SUFFIX, com.cn, direct
 
 # allowed safe trackers
-HOST,graph.instagram.com,DIRECT
-HOST,www.googleadservices.com,DIRECT
-HOST,control.kochava.com,DIRECT
-HOST,www.google-analytics.com,DIRECT
-HOST,ssl.google-analytics.com,DIRECT
-HOST,nexus.officeapps.live.com,DIRECT
-HOST,googleads.g.doubleclick.net,DIRECT
-HOST,e.crashlytics.com,DIRECT
-HOST,ib.adnxs.com,DIRECT
-HOST,safebrowsing.googleapis.com,DIRECT
-HOST-SUFFIX,googlesyndication.com,DIRECT
-HOST-SUFFIX,googletagmanager.com,DIRECT
-HOST-SUFFIX,googletagservices.com,DIRECT
+HOST, graph.instagram.com, direct
+HOST, www.googleadservices.com, direct
+HOST, control.kochava.com, direct
+HOST, www.google-analytics.com, direct
+HOST, ssl.google-analytics.com, direct
+HOST, nexus.officeapps.live.com, direct
+HOST, googleads.g.doubleclick.net, direct
+HOST, e.crashlytics.com, direct
+HOST, ib.adnxs.com, direct
+HOST, safebrowsing.googleapis.com, direct
+HOST-SUFFIX, googlesyndication.com, direct
+HOST-SUFFIX, googletagmanager.com, direct
+HOST-SUFFIX, googletagservices.com, direct
 
 #specific geo services
-HOST-SUFFIX,paypal.com,Proxy
-HOST-SUFFIX,stripe.com,Proxy
+HOST-SUFFIX, paypal.com, proxy
+HOST-SUFFIX, stripe.com, proxy
 
 ##tiktok
-HOST-SUFFIX,byteoversea.com,Scholar
-HOST-SUFFIX,muscdn.com,Scholar
-HOST-SUFFIX,musical.ly,Scholar
-HOST-SUFFIX,tik-tokapi.com,Scholar
-HOST-SUFFIX,tiktokcdn.com,Scholar
-HOST-SUFFIX,tiktok.com,Scholar
-HOST-SUFFIX,tiktokv.com,Scholar
+HOST-SUFFIX, byteoversea.com, Scholar
+HOST-SUFFIX, muscdn.com, Scholar
+HOST-SUFFIX, musical.ly, Scholar
+HOST-SUFFIX, tik-tokapi.com, Scholar
+HOST-SUFFIX, tiktokcdn.com, Scholar
+HOST-SUFFIX, tiktok.com, Scholar
+HOST-SUFFIX, tiktokv.com, Scholar
 
 #specific scholar services
-HOST-SUFFIX,ai.com,Scholar
-HOST-SUFFIX,openai.com,Scholar
-HOST,openaiapi-site.azureedge.net,Scholar
-HOST-SUFFIX,bing.com,Scholar
-HOST-KEYWORD,scholar,Scholar
-HOST-SUFFIX,rxiv.org,Scholar
-HOST-SUFFIX,acrjournals.org,Scholar
-HOST-SUFFIX,cademic.eb.com,Scholar
-HOST-SUFFIX,caric.co.jp,Scholar
-HOST-SUFFIX,clweb.org,Scholar
-HOST-SUFFIX,cm.org,Scholar
-HOST-SUFFIX,cs.org,Scholar
-HOST-SUFFIX,gu.org,Scholar
-HOST-SUFFIX,iaa.org,Scholar
-HOST-SUFFIX,imsciences.org,Scholar
-HOST-SUFFIX,ms.org,Scholar
-HOST-SUFFIX,natomy.tv,Scholar
-HOST-SUFFIX,nalytictech.com,Scholar
-HOST-SUFFIX,nnualreviews.org,Scholar
-HOST-SUFFIX,ps.org,Scholar
-HOST-SUFFIX,rabidopsis.org,Scholar
-HOST-SUFFIX,rtstor.org,Scholar
-HOST-SUFFIX,scelibrary.org,Scholar
-HOST-SUFFIX,sha.org,Scholar
-HOST-SUFFIX,sm.org,Scholar
-HOST-SUFFIX,sme.org,Scholar
-HOST-SUFFIX,sminternational.org,Scholar
-HOST-SUFFIX,sn-online.org,Scholar
-HOST-SUFFIX,spbjournals.org,Scholar
-HOST-SUFFIX,spenpublishing.com,Scholar
-HOST-SUFFIX,stm.org,Scholar
-HOST-SUFFIX,siam.org,Scholar
+HOST-SUFFIX, ai.com, Scholar
+HOST-SUFFIX, openai.com, Scholar
+HOST, openaiapi-site.azureedge.net, Scholar
+HOST-SUFFIX, bing.com, Scholar
+HOST-KEYWORD, scholar, Scholar
+HOST-SUFFIX, rxiv.org, Scholar
+HOST-SUFFIX, acrjournals.org, Scholar
+HOST-SUFFIX, cademic.eb.com, Scholar
+HOST-SUFFIX, caric.co.jp, Scholar
+HOST-SUFFIX, clweb.org, Scholar
+HOST-SUFFIX, cm.org, Scholar
+HOST-SUFFIX, cs.org, Scholar
+HOST-SUFFIX, gu.org, Scholar
+HOST-SUFFIX, iaa.org, Scholar
+HOST-SUFFIX, imsciences.org, Scholar
+HOST-SUFFIX, ms.org, Scholar
+HOST-SUFFIX, natomy.tv, Scholar
+HOST-SUFFIX, nalytictech.com, Scholar
+HOST-SUFFIX, nnualreviews.org, Scholar
+HOST-SUFFIX, ps.org, Scholar
+HOST-SUFFIX, rabidopsis.org, Scholar
+HOST-SUFFIX, rtstor.org, Scholar
+HOST-SUFFIX, scelibrary.org, Scholar
+HOST-SUFFIX, sha.org, Scholar
+HOST-SUFFIX, sm.org, Scholar
+HOST-SUFFIX, sme.org, Scholar
+HOST-SUFFIX, sminternational.org, Scholar
+HOST-SUFFIX, sn-online.org, Scholar
+HOST-SUFFIX, spbjournals.org, Scholar
+HOST-SUFFIX, spenpublishing.com, Scholar
+HOST-SUFFIX, stm.org, Scholar
+HOST-SUFFIX, siam.org, Scholar
 
 #dev
-HOST-SUFFIX,gstatic.com,Proxy
-HOST-SUFFIX,google.com,Proxy
-HOST-SUFFIX,figma.com,Proxy
-HOST-SUFFIX,v2ex.com,Proxy
-HOST-KEYWORD,gitlab,Proxy
-HOST-KEYWORD,github,Proxy
-HOST-KEYWORD,npm,Proxy
-HOST-KEYWORD,stackoverflow.com,Proxy
-HOST-SUFFIX,techcrunch.com,Proxy
-HOST-SUFFIX,go-lang.com,Proxy
-HOST-SUFFIX,go-lang.net,Proxy
-HOST-SUFFIX,go-lang.org,Proxy
-HOST-SUFFIX,go.dev,Proxy
-HOST-SUFFIX,godoc.org,Proxy
-HOST-SUFFIX,golang.com,Proxy
-HOST-SUFFIX,golang.net,Proxy
-HOST-SUFFIX,golang.org,Proxy
-HOST-SUFFIX,trello.com,Proxy
-HOST-SUFFIX,techsmith.com,Proxy
-HOST-SUFFIX,thepiratebay.org,Proxy
-HOST-SUFFIX,pinterest.com,Proxy
+HOST-SUFFIX, gstatic.com, proxy
+HOST-SUFFIX, google.com, proxy
+HOST-SUFFIX, figma.com, proxy
+HOST-SUFFIX, v2ex.com, proxy
+HOST-KEYWORD, gitlab, proxy
+HOST-KEYWORD, github, proxy
+HOST-KEYWORD, npm, proxy
+HOST-KEYWORD, stackoverflow.com, proxy
+HOST-SUFFIX, techcrunch.com, proxy
+HOST-SUFFIX, go-lang.com, proxy
+HOST-SUFFIX, go-lang.net, proxy
+HOST-SUFFIX, go-lang.org, proxy
+HOST-SUFFIX, go.dev, proxy
+HOST-SUFFIX, godoc.org, proxy
+HOST-SUFFIX, golang.com, proxy
+HOST-SUFFIX, golang.net, proxy
+HOST-SUFFIX, golang.org, proxy
+HOST-SUFFIX, trello.com, proxy
+HOST-SUFFIX, techsmith.com, proxy
+HOST-SUFFIX, thepiratebay.org, proxy
+HOST-SUFFIX, pinterest.com, proxy
 
 # > IQIYI
-HOST-KEYWORD,qiyi,DIRECT
-HOST-SUFFIX,qy.net,DIRECT
-HOST-SUFFIX,letv.com,DIRECT
-HOST-SUFFIX,71.am,DIRECT
-HOST-SUFFIX,71edge.com,DIRECT
-HOST-SUFFIX,iqiyi.com,DIRECT
-HOST-SUFFIX,iqiyipic.com,DIRECT
-HOST-SUFFIX,ppsimg.com,DIRECT
-HOST-SUFFIX,qiyi.com,DIRECT
-HOST-SUFFIX,qiyipic.com,DIRECT
-HOST-SUFFIX,qy.net,DIRECT
+HOST-KEYWORD, qiyi, direct
+HOST-SUFFIX, qy.net, direct
+HOST-SUFFIX, letv.com, direct
+HOST-SUFFIX, 71.am, direct
+HOST-SUFFIX, 71edge.com, direct
+HOST-SUFFIX, iqiyi.com, direct
+HOST-SUFFIX, iqiyipic.com, direct
+HOST-SUFFIX, ppsimg.com, direct
+HOST-SUFFIX, qiyi.com, direct
+HOST-SUFFIX, qiyipic.com, direct
+HOST-SUFFIX, qy.net, direct
 
-HOST-SUFFIX,cc98.org,DIRECT
+HOST-SUFFIX, cc98.org, direct
 
 # > NeteaseMusic
-HOST-SUFFIX,163yun.com,DIRECT
-HOST-SUFFIX,music.126.net,DIRECT
-HOST-SUFFIX,music.163.com,DIRECT
+HOST-SUFFIX, 163yun.com, direct
+HOST-SUFFIX, music.126.net, direct
+HOST-SUFFIX, music.163.com, direct
 
 # China CDN
-HOST-SUFFIX,tnkjmec.com,DIRECT
-HOST-SUFFIX,clngaa.com,DIRECT
-HOST-SUFFIX,ksyna.com,DIRECT
-HOST-SUFFIX,bscstorage.net,DIRECT
-HOST-SUFFIX,eccdnx.com,DIRECT
-HOST-SUFFIX,pinyuncloud.com,DIRECT
-HOST-SUFFIX,8686c.com,DIRECT
-HOST-SUFFIX,pphimalayanrt.com,DIRECT
-HOST-SUFFIX,qbox.me,DIRECT
-HOST-SUFFIX,qiniu.com,DIRECT
-HOST-SUFFIX,qiniudn.com,DIRECT
-HOST-SUFFIX,qiniup.com,DIRECT
-HOST-SUFFIX,qnsdk.com,DIRECT
-HOST-SUFFIX,qnssl.com,DIRECT
-HOST-SUFFIX,qiniucdn.com,DIRECT
-HOST-SUFFIX,qiniudns.com,DIRECT
-HOST-SUFFIX,sandai.net,DIRECT
+HOST-SUFFIX, tnkjmec.com, direct
+HOST-SUFFIX, clngaa.com, direct
+HOST-SUFFIX, ksyna.com, direct
+HOST-SUFFIX, bscstorage.net, direct
+HOST-SUFFIX, eccdnx.com, direct
+HOST-SUFFIX, pinyuncloud.com, direct
+HOST-SUFFIX, 8686c.com, direct
+HOST-SUFFIX, pphimalayanrt.com, direct
+HOST-SUFFIX, qbox.me, direct
+HOST-SUFFIX, qiniu.com, direct
+HOST-SUFFIX, qiniudn.com, direct
+HOST-SUFFIX, qiniup.com, direct
+HOST-SUFFIX, qnsdk.com, direct
+HOST-SUFFIX, qnssl.com, direct
+HOST-SUFFIX, qiniucdn.com, direct
+HOST-SUFFIX, qiniudns.com, direct
+HOST-SUFFIX, sandai.net, direct
 
 # > ByteDance
-HOST-KEYWORD,toutiao,DIRECT
-HOST-SUFFIX,bdxiguastatic.com,DIRECT
-HOST-SUFFIX,bdurl.net,DIRECT
-HOST-SUFFIX,douyinstatic.com,DIRECT
-HOST-SUFFIX,douyin.com,DIRECT
-HOST-SUFFIX,douyinpic.com,DIRECT
-HOST-SUFFIX,douyinvod.com,DIRECT
-HOST-SUFFIX,huoshan.com,DIRECT
-HOST-SUFFIX,huoshanstatic.com,DIRECT
-HOST-SUFFIX,huoshanzhibo.com,DIRECT
-HOST-SUFFIX,ixigua.com,DIRECT
-HOST-SUFFIX,ixiguavideo.com,DIRECT
-HOST-SUFFIX,ixgvideo.com,DIRECT
-HOST-SUFFIX,bdxiguaimg.com,DIRECT
-HOST-SUFFIX,pstatp.com,DIRECT
-HOST-SUFFIX,snssdk.com,DIRECT
-HOST-SUFFIX,zijiecdn.com,DIRECT
-HOST-SUFFIX,zijiecdn.net,DIRECT
-HOST-SUFFIX,zjbyte.cn,DIRECT
-HOST-SUFFIX,zjcdn.com,DIRECT
-HOST-SUFFIX,bytedance.com,DIRECT
-HOST-SUFFIX,bytedance.net,DIRECT
-HOST-SUFFIX,bytedns.net,DIRECT
-HOST-SUFFIX,byteimg.com,DIRECT
-HOST-SUFFIX,feiliao.com,DIRECT
-HOST-SUFFIX,gifshow.com,DIRECT
-HOST-SUFFIX,huoshan.com,DIRECT
-HOST-SUFFIX,iesdouyin.com,DIRECT
-HOST-SUFFIX,ixigua.com,DIRECT
-HOST-SUFFIX,kspkg.com,DIRECT
-HOST-SUFFIX,pstatp.com,DIRECT
-HOST-SUFFIX,snssdk.com,DIRECT
-HOST-SUFFIX,wukong.com,DIRECT
-HOST-SUFFIX,zijieimg.com,DIRECT
-HOST-SUFFIX,zjbyte.com,DIRECT
-HOST-SUFFIX,zjcdn.com,DIRECT
+HOST-KEYWORD, toutiao, direct
+HOST-SUFFIX, bdxiguastatic.com, direct
+HOST-SUFFIX, bdurl.net, direct
+HOST-SUFFIX, douyinstatic.com, direct
+HOST-SUFFIX, douyin.com, direct
+HOST-SUFFIX, douyinpic.com, direct
+HOST-SUFFIX, douyinvod.com, direct
+HOST-SUFFIX, huoshan.com, direct
+HOST-SUFFIX, huoshanstatic.com, direct
+HOST-SUFFIX, huoshanzhibo.com, direct
+HOST-SUFFIX, ixigua.com, direct
+HOST-SUFFIX, ixiguavideo.com, direct
+HOST-SUFFIX, ixgvideo.com, direct
+HOST-SUFFIX, bdxiguaimg.com, direct
+HOST-SUFFIX, pstatp.com, direct
+HOST-SUFFIX, snssdk.com, direct
+HOST-SUFFIX, zijiecdn.com, direct
+HOST-SUFFIX, zijiecdn.net, direct
+HOST-SUFFIX, zjbyte.cn, direct
+HOST-SUFFIX, zjcdn.com, direct
+HOST-SUFFIX, bytedance.com, direct
+HOST-SUFFIX, bytedance.net, direct
+HOST-SUFFIX, bytedns.net, direct
+HOST-SUFFIX, byteimg.com, direct
+HOST-SUFFIX, feiliao.com, direct
+HOST-SUFFIX, gifshow.com, direct
+HOST-SUFFIX, huoshan.com, direct
+HOST-SUFFIX, iesdouyin.com, direct
+HOST-SUFFIX, ixigua.com, direct
+HOST-SUFFIX, kspkg.com, direct
+HOST-SUFFIX, pstatp.com, direct
+HOST-SUFFIX, snssdk.com, direct
+HOST-SUFFIX, wukong.com, direct
+HOST-SUFFIX, zijieimg.com, direct
+HOST-SUFFIX, zjbyte.com, direct
+HOST-SUFFIX, zjcdn.com, direct
 
 # > Bilibili
-HOST-KEYWORD,bili,DIRECT
-HOST-SUFFIX,acg.tv,DIRECT
-HOST-SUFFIX,acgvideo.com,DIRECT
-HOST-SUFFIX,b23.tv,DIRECT
-HOST-SUFFIX,hdslb.com,DIRECT
-HOST-SUFFIX,im9.com,DIRECT
+HOST-KEYWORD, bili, direct
+HOST-SUFFIX, acg.tv, direct
+HOST-SUFFIX, acgvideo.com, direct
+HOST-SUFFIX, b23.tv, direct
+HOST-SUFFIX, hdslb.com, direct
+HOST-SUFFIX, im9.com, direct
 
 # > Blizzard
-HOST-SUFFIX,blizzard.com,DIRECT
-HOST-SUFFIX,battle.net,DIRECT
-HOST,blzddist1-a.akamaihd.net,DIRECT
+HOST-SUFFIX, blizzard.com, direct
+HOST-SUFFIX, battle.net, direct
+HOST, blzddist1-a.akamaihd.net, direct
 
-# DIRECT
-HOST-SUFFIX,digicert.com,DIRECT
-HOST-SUFFIX,code.visualstudio.com,DIRECT
+# direct
+HOST-SUFFIX, digicert.com, direct
+HOST-SUFFIX, code.visualstudio.com, direct
 
 # CCTV
-HOST-SUFFIX,cctv.com,DIRECT
-HOST-SUFFIX,cctvpic.com,DIRECT
-HOST-SUFFIX,livechina.com,DIRECT
+HOST-SUFFIX, cctv.com, direct
+HOST-SUFFIX, cctvpic.com, direct
+HOST-SUFFIX, livechina.com, direct
 
 # DiDi
-HOST-SUFFIX,didialift.com,DIRECT
-HOST-SUFFIX,didiglobal.com,DIRECT
-HOST-SUFFIX,udache.com,DIRECT
+HOST-SUFFIX, didialift.com, direct
+HOST-SUFFIX, didiglobal.com, direct
+HOST-SUFFIX, udache.com, direct
 
 # Douyu 斗鱼
-HOST-SUFFIX,douyu.com,DIRECT
-HOST-SUFFIX,douyu.tv,DIRECT
-HOST-SUFFIX,douyuscdn.com,DIRECT
-HOST-SUFFIX,douyutv.com,DIRECT
+HOST-SUFFIX, douyu.com, direct
+HOST-SUFFIX, douyu.tv, direct
+HOST-SUFFIX, douyuscdn.com, direct
+HOST-SUFFIX, douyutv.com, direct
 
 # HuaWei
-HOST-SUFFIX,dbankcdn.com,DIRECT
-HOST-SUFFIX,hc-cdn.com,DIRECT
-HOST-SUFFIX,hicloud.com,DIRECT
-HOST-SUFFIX,huawei.com,DIRECT
-HOST-SUFFIX,huaweicloud.com,DIRECT
-HOST-SUFFIX,huaweishop.net,DIRECT
-HOST-SUFFIX,hwccpc.com,DIRECT
-HOST-SUFFIX,vmall.com,DIRECT
-HOST-SUFFIX,vmallres.com,DIRECT
+HOST-SUFFIX, dbankcdn.com, direct
+HOST-SUFFIX, hc-cdn.com, direct
+HOST-SUFFIX, hicloud.com, direct
+HOST-SUFFIX, huawei.com, direct
+HOST-SUFFIX, huaweicloud.com, direct
+HOST-SUFFIX, huaweishop.net, direct
+HOST-SUFFIX, hwccpc.com, direct
+HOST-SUFFIX, vmall.com, direct
+HOST-SUFFIX, vmallres.com, direct
 
 # Iflytek
-HOST-SUFFIX,iflyink.com,DIRECT
-HOST-SUFFIX,iflyrec.com,DIRECT
-HOST-SUFFIX,iflytek.com,DIRECT
+HOST-SUFFIX, iflyink.com, direct
+HOST-SUFFIX, iflyrec.com, direct
+HOST-SUFFIX, iflytek.com, direct
 
-HOST,dig.bdurl.net,DIRECT
-HOST,pagead2.googlesyndication.com,DIRECT
+HOST, dig.bdurl.net, direct
+HOST, pagead2.googlesyndication.com, direct
 
 
 # apple
-HOST,hls.itunes.apple.com,DIRECT
-HOST,itunes.apple.com,DIRECT
-HOST,www.apple.com,DIRECT
-HOST-SUFFIX,apple.com,DIRECT
-HOST-SUFFIX,icloud.com,DIRECT
-HOST-SUFFIX,icloud-content.com,DIRECT
-HOST-SUFFIX,mzstatic.com,DIRECT
-HOST-SUFFIX,aaplimg.com,DIRECT
-HOST-SUFFIX,cdn-apple.com,DIRECT
+HOST, hls.itunes.apple.com, direct
+HOST, itunes.apple.com, direct
+HOST, www.apple.com, direct
+HOST-SUFFIX, apple.com, direct
+HOST-SUFFIX, icloud.com, direct
+HOST-SUFFIX, icloud-content.com, direct
+HOST-SUFFIX, mzstatic.com, direct
+HOST-SUFFIX, aaplimg.com, direct
+HOST-SUFFIX, cdn-apple.com, direct
 
 # microsoft
-HOST-SUFFIX,live.com,DIRECT
-HOST-SUFFIX,live.net,DIRECT
-HOST-SUFFIX,office.com,DIRECT
-HOST-SUFFIX,office.net,DIRECT
-HOST-SUFFIX,sharepoint.com,DIRECT
-HOST-SUFFIX,office365.com,DIRECT
-HOST-SUFFIX,officeppe.net,DIRECT
-HOST-SUFFIX,skype.com,DIRECT
-HOST-SUFFIX,onedrive.com,DIRECT
-HOST-SUFFIX,msocsp.com,DIRECT
-HOST-SUFFIX,msauthimages.net,DIRECT
-HOST-SUFFIX,msauth.net,DIRECT
-HOST-SUFFIX,msn.com,DIRECT
-HOST-SUFFIX,onenote.com,DIRECT
-HOST-SUFFIX,onenote.net,DIRECT
-HOST-SUFFIX,1drv.com,DIRECT
-HOST-SUFFIX,microsoft.com,DIRECT
-HOST-SUFFIX,microsoftonline.com,DIRECT
+HOST-SUFFIX, live.com, direct
+HOST-SUFFIX, live.net, direct
+HOST-SUFFIX, office.com, direct
+HOST-SUFFIX, office.net, direct
+HOST-SUFFIX, sharepoint.com, direct
+HOST-SUFFIX, office365.com, direct
+HOST-SUFFIX, officeppe.net, direct
+HOST-SUFFIX, skype.com, direct
+HOST-SUFFIX, onedrive.com, direct
+HOST-SUFFIX, msocsp.com, direct
+HOST-SUFFIX, msauthimages.net, direct
+HOST-SUFFIX, msauth.net, direct
+HOST-SUFFIX, msn.com, direct
+HOST-SUFFIX, onenote.com, direct
+HOST-SUFFIX, onenote.net, direct
+HOST-SUFFIX, 1drv.com, direct
+HOST-SUFFIX, microsoft.com, direct
+HOST-SUFFIX, microsoftonline.com, direct
 
-HOST-SUFFIX,miui.com,DIRECT
-HOST-SUFFIX,miwifi.com,DIRECT
-HOST-SUFFIX,mob.com,DIRECT
-HOST-SUFFIX,netease.com,DIRECT
-HOST-SUFFIX,office.com,DIRECT
-HOST-SUFFIX,office365.com,DIRECT
-HOST-KEYWORD,officecdn,DIRECT
-HOST-SUFFIX,oschina.net,DIRECT
-HOST-SUFFIX,ppsimg.com,DIRECT
-HOST-SUFFIX,pstatp.com,DIRECT
-HOST-SUFFIX,qcloud.com,DIRECT
-HOST-SUFFIX,qdaily.com,DIRECT
-HOST-SUFFIX,qdmm.com,DIRECT
-HOST-SUFFIX,qhimg.com,DIRECT
-HOST-SUFFIX,qhres.com,DIRECT
-HOST-SUFFIX,qidian.com,DIRECT
-HOST-SUFFIX,qihucdn.com,DIRECT
-HOST-SUFFIX,qiniu.com,DIRECT
-HOST-SUFFIX,qiniucdn.com,DIRECT
-HOST-SUFFIX,qiyipic.com,DIRECT
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,qqurl.com,DIRECT
-HOST-SUFFIX,rarbg.to,DIRECT
-HOST-SUFFIX,ruguoapp.com,DIRECT
-HOST-SUFFIX,segmentfault.com,DIRECT
-HOST-SUFFIX,sinaapp.com,DIRECT
-HOST-SUFFIX,smzdm.com,DIRECT
-HOST-SUFFIX,sogou.com,DIRECT
-HOST-SUFFIX,sogoucdn.com,DIRECT
-HOST-SUFFIX,sohu.com,DIRECT
-HOST-SUFFIX,soku.com,DIRECT
-HOST-SUFFIX,speedtest.net,DIRECT
-HOST-SUFFIX,sspai.com,DIRECT
-HOST-SUFFIX,suning.com,DIRECT
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,tenpay.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,tudou.com,DIRECT
-HOST-SUFFIX,umetrip.com,DIRECT
-HOST-SUFFIX,upaiyun.com,DIRECT
-HOST-SUFFIX,upyun.com,DIRECT
-HOST-SUFFIX,veryzhun.com,DIRECT
-HOST-SUFFIX,weather.com,DIRECT
-HOST-SUFFIX,weibo.com,DIRECT
-HOST-SUFFIX,xiami.com,DIRECT
-HOST-SUFFIX,xiami.net,DIRECT
-HOST-SUFFIX,xiaomicp.com,DIRECT
-HOST-SUFFIX,ximalaya.com,DIRECT
-HOST-SUFFIX,xmcdn.com,DIRECT
-HOST-SUFFIX,xunlei.com,DIRECT
-HOST-SUFFIX,xycdn.com,DIRECT
-HOST-SUFFIX,yhd.com,DIRECT
-HOST-SUFFIX,yihaodianimg.com,DIRECT
-HOST-SUFFIX,yinxiang.com,DIRECT
-HOST-SUFFIX,ykimg.com,DIRECT
-HOST-SUFFIX,youdao.com,DIRECT
-HOST-SUFFIX,youku.com,DIRECT
-HOST-SUFFIX,zealer.com,DIRECT
-HOST-SUFFIX,zhihu.com,DIRECT
-HOST-SUFFIX,zhimg.com,DIRECT
-HOST-SUFFIX,zimuzu.tv,DIRECT
+HOST-SUFFIX, miui.com, direct
+HOST-SUFFIX, miwifi.com, direct
+HOST-SUFFIX, mob.com, direct
+HOST-SUFFIX, netease.com, direct
+HOST-SUFFIX, office.com, direct
+HOST-SUFFIX, office365.com, direct
+HOST-KEYWORD, officecdn, direct
+HOST-SUFFIX, oschina.net, direct
+HOST-SUFFIX, ppsimg.com, direct
+HOST-SUFFIX, pstatp.com, direct
+HOST-SUFFIX, qcloud.com, direct
+HOST-SUFFIX, qdaily.com, direct
+HOST-SUFFIX, qdmm.com, direct
+HOST-SUFFIX, qhimg.com, direct
+HOST-SUFFIX, qhres.com, direct
+HOST-SUFFIX, qidian.com, direct
+HOST-SUFFIX, qihucdn.com, direct
+HOST-SUFFIX, qiniu.com, direct
+HOST-SUFFIX, qiniucdn.com, direct
+HOST-SUFFIX, qiyipic.com, direct
+HOST-SUFFIX, qq.com, direct
+HOST-SUFFIX, qqurl.com, direct
+HOST-SUFFIX, rarbg.to, direct
+HOST-SUFFIX, ruguoapp.com, direct
+HOST-SUFFIX, segmentfault.com, direct
+HOST-SUFFIX, sinaapp.com, direct
+HOST-SUFFIX, smzdm.com, direct
+HOST-SUFFIX, sogou.com, direct
+HOST-SUFFIX, sogoucdn.com, direct
+HOST-SUFFIX, sohu.com, direct
+HOST-SUFFIX, soku.com, direct
+HOST-SUFFIX, speedtest.net, direct
+HOST-SUFFIX, sspai.com, direct
+HOST-SUFFIX, suning.com, direct
+HOST-SUFFIX, taobao.com, direct
+HOST-SUFFIX, tenpay.com, direct
+HOST-SUFFIX, tmall.com, direct
+HOST-SUFFIX, tudou.com, direct
+HOST-SUFFIX, umetrip.com, direct
+HOST-SUFFIX, upaiyun.com, direct
+HOST-SUFFIX, upyun.com, direct
+HOST-SUFFIX, veryzhun.com, direct
+HOST-SUFFIX, weather.com, direct
+HOST-SUFFIX, weibo.com, direct
+HOST-SUFFIX, xiami.com, direct
+HOST-SUFFIX, xiami.net, direct
+HOST-SUFFIX, xiaomicp.com, direct
+HOST-SUFFIX, ximalaya.com, direct
+HOST-SUFFIX, xmcdn.com, direct
+HOST-SUFFIX, xunlei.com, direct
+HOST-SUFFIX, xycdn.com, direct
+HOST-SUFFIX, yhd.com, direct
+HOST-SUFFIX, yihaodianimg.com, direct
+HOST-SUFFIX, yinxiang.com, direct
+HOST-SUFFIX, ykimg.com, direct
+HOST-SUFFIX, youdao.com, direct
+HOST-SUFFIX, youku.com, direct
+HOST-SUFFIX, zealer.com, direct
+HOST-SUFFIX, zhihu.com, direct
+HOST-SUFFIX, zhimg.com, direct
+HOST-SUFFIX, zimuzu.tv, direct
 
 # China
-HOST-SUFFIX,apcdns.net,DIRECT
-HOST-SUFFIX,cdntip.com,DIRECT
-HOST-SUFFIX,cdntips.com,DIRECT
-HOST-SUFFIX,foxmail.com,DIRECT
-HOST-SUFFIX,gtimg.com,DIRECT
-HOST-SUFFIX,idqqimg.com,DIRECT
-HOST-SUFFIX,imqq.com,DIRECT
-HOST-SUFFIX,myapp.com,DIRECT
-HOST-SUFFIX,myqcloud.com,DIRECT
-HOST-SUFFIX,qcloud.com,DIRECT
-HOST-SUFFIX,qcloudimg.com,DIRECT
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,qqmail.com,DIRECT
-HOST-SUFFIX,qzone.com,DIRECT
-HOST-SUFFIX,servicewechat.com,DIRECT
-HOST-SUFFIX,smtcdns.com,DIRECT
-HOST-SUFFIX,smtcdns.net,DIRECT
-HOST-SUFFIX,tencent.com,DIRECT
-HOST-SUFFIX,tencent.com.hk,DIRECT
-HOST-SUFFIX,tencent-cloud.com,DIRECT
-HOST-SUFFIX,tencent-cloud.net,DIRECT
-HOST-SUFFIX,tencentcs.com,DIRECT
-HOST-SUFFIX,tencentmusic.com,DIRECT
-HOST-SUFFIX,tencentyun.com,DIRECT
-HOST-SUFFIX,tenpay.com,DIRECT
-HOST-SUFFIX,wechat.com,DIRECT
-HOST-SUFFIX,wegame.com,DIRECT
-HOST-SUFFIX,weiyun.com,DIRECT
-HOST-SUFFIX,25pp.com,DIRECT
-HOST-SUFFIX,56che.com,DIRECT
-HOST-SUFFIX,95095.com,DIRECT
-HOST-SUFFIX,aliapp.org,DIRECT
-HOST-SUFFIX,alibaba-inc.com,DIRECT
-HOST-SUFFIX,alibaba.com,DIRECT
-HOST-SUFFIX,alibabacapital.com,DIRECT
-HOST-SUFFIX,alibabacorp.com,DIRECT
-HOST-SUFFIX,alibabadoctor.com,DIRECT
-HOST-SUFFIX,alibabafuturehotel.com,DIRECT
-HOST-SUFFIX,alibabagroup.com,DIRECT
-HOST-SUFFIX,alibabaplanet.com,DIRECT
-HOST-SUFFIX,alibabaued.com,DIRECT
-HOST-SUFFIX,alibabausercontent.com,DIRECT
-HOST-SUFFIX,alifanyi.com,DIRECT
-HOST-SUFFIX,alihealth.hk,DIRECT
-HOST-SUFFIX,aliimg.com,DIRECT
-HOST-SUFFIX,alikmd.com,DIRECT
-HOST-SUFFIX,alimama.com,DIRECT
-HOST-SUFFIX,alimebot.com,DIRECT
-HOST-SUFFIX,alimei.com,DIRECT
-HOST-SUFFIX,alipay.com,DIRECT
-HOST-SUFFIX,alipaydns.com,DIRECT
-HOST-SUFFIX,alipayobjects.com,DIRECT
-HOST-SUFFIX,aliplus.com,DIRECT
-HOST-SUFFIX,aliresearch.com,DIRECT
-HOST-SUFFIX,alisoft.com,DIRECT
-HOST-SUFFIX,alisports.com,DIRECT
-HOST-SUFFIX,alitianji.com,DIRECT
-HOST-SUFFIX,aliunicorn.com,DIRECT
-HOST-SUFFIX,aliway.com,DIRECT
-HOST-SUFFIX,aliwork.com,DIRECT
-HOST-SUFFIX,alixiaomi.com,DIRECT
-HOST-SUFFIX,alizhaopin.com,DIRECT
-HOST-SUFFIX,asczwa.com,DIRECT
-HOST-SUFFIX,asczxcefsv.com,DIRECT
-HOST-SUFFIX,atatech.org,DIRECT
-HOST-SUFFIX,b2byao.com,DIRECT
-HOST-SUFFIX,bazai.com,DIRECT
-HOST-SUFFIX,bcvbw.com,DIRECT
-HOST-SUFFIX,cheng.xin,DIRECT
-HOST-SUFFIX,dayu.com,DIRECT
-HOST-SUFFIX,dongting.com,DIRECT
-HOST-SUFFIX,dratio.com,DIRECT
-HOST-SUFFIX,emas-poc.com,DIRECT
-HOST-SUFFIX,ialicdn.com,DIRECT
-HOST-SUFFIX,kanbox.com,DIRECT
-HOST-SUFFIX,lazada.com,DIRECT
-HOST-SUFFIX,liangxinyao.com,DIRECT
-HOST-SUFFIX,maitix.com,DIRECT
-HOST-SUFFIX,1688.com,DIRECT
-HOST-SUFFIX,etao.com,DIRECT
-HOST-SUFFIX,juhuasuan.com,DIRECT
-HOST-SUFFIX,lingshoujia.com,DIRECT
-HOST-SUFFIX,pailitao.com,DIRECT
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,taobao.org,DIRECT
-HOST-SUFFIX,taobaocdn.com,DIRECT
-HOST-SUFFIX,taobizhong.com,DIRECT
-HOST-SUFFIX,taopiaopiao.com,DIRECT
-HOST-SUFFIX,tbcache.com,DIRECT
-HOST-SUFFIX,tburl.in,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,tmall.ru,DIRECT
-HOST-SUFFIX,tmalltv.com,DIRECT
-HOST-SUFFIX,tmjl.ai,DIRECT
-HOST-SUFFIX,alitrip.com,DIRECT
-HOST-SUFFIX,feizhu.com,DIRECT
-HOST-SUFFIX,fliggy.com,DIRECT
+HOST-SUFFIX, apcdns.net, direct
+HOST-SUFFIX, cdntip.com, direct
+HOST-SUFFIX, cdntips.com, direct
+HOST-SUFFIX, foxmail.com, direct
+HOST-SUFFIX, gtimg.com, direct
+HOST-SUFFIX, idqqimg.com, direct
+HOST-SUFFIX, imqq.com, direct
+HOST-SUFFIX, myapp.com, direct
+HOST-SUFFIX, myqcloud.com, direct
+HOST-SUFFIX, qcloud.com, direct
+HOST-SUFFIX, qcloudimg.com, direct
+HOST-SUFFIX, qq.com, direct
+HOST-SUFFIX, qqmail.com, direct
+HOST-SUFFIX, qzone.com, direct
+HOST-SUFFIX, servicewechat.com, direct
+HOST-SUFFIX, smtcdns.com, direct
+HOST-SUFFIX, smtcdns.net, direct
+HOST-SUFFIX, tencent.com, direct
+HOST-SUFFIX, tencent.com.hk, direct
+HOST-SUFFIX, tencent-cloud.com, direct
+HOST-SUFFIX, tencent-cloud.net, direct
+HOST-SUFFIX, tencentcs.com, direct
+HOST-SUFFIX, tencentmusic.com, direct
+HOST-SUFFIX, tencentyun.com, direct
+HOST-SUFFIX, tenpay.com, direct
+HOST-SUFFIX, wechat.com, direct
+HOST-SUFFIX, wegame.com, direct
+HOST-SUFFIX, weiyun.com, direct
+HOST-SUFFIX, 25pp.com, direct
+HOST-SUFFIX, 56che.com, direct
+HOST-SUFFIX, 95095.com, direct
+HOST-SUFFIX, aliapp.org, direct
+HOST-SUFFIX, alibaba-inc.com, direct
+HOST-SUFFIX, alibaba.com, direct
+HOST-SUFFIX, alibabacapital.com, direct
+HOST-SUFFIX, alibabacorp.com, direct
+HOST-SUFFIX, alibabadoctor.com, direct
+HOST-SUFFIX, alibabafuturehotel.com, direct
+HOST-SUFFIX, alibabagroup.com, direct
+HOST-SUFFIX, alibabaplanet.com, direct
+HOST-SUFFIX, alibabaued.com, direct
+HOST-SUFFIX, alibabausercontent.com, direct
+HOST-SUFFIX, alifanyi.com, direct
+HOST-SUFFIX, alihealth.hk, direct
+HOST-SUFFIX, aliimg.com, direct
+HOST-SUFFIX, alikmd.com, direct
+HOST-SUFFIX, alimama.com, direct
+HOST-SUFFIX, alimebot.com, direct
+HOST-SUFFIX, alimei.com, direct
+HOST-SUFFIX, alipay.com, direct
+HOST-SUFFIX, alipaydns.com, direct
+HOST-SUFFIX, alipayobjects.com, direct
+HOST-SUFFIX, aliplus.com, direct
+HOST-SUFFIX, aliresearch.com, direct
+HOST-SUFFIX, alisoft.com, direct
+HOST-SUFFIX, alisports.com, direct
+HOST-SUFFIX, alitianji.com, direct
+HOST-SUFFIX, aliunicorn.com, direct
+HOST-SUFFIX, aliway.com, direct
+HOST-SUFFIX, aliwork.com, direct
+HOST-SUFFIX, alixiaomi.com, direct
+HOST-SUFFIX, alizhaopin.com, direct
+HOST-SUFFIX, asczwa.com, direct
+HOST-SUFFIX, asczxcefsv.com, direct
+HOST-SUFFIX, atatech.org, direct
+HOST-SUFFIX, b2byao.com, direct
+HOST-SUFFIX, bazai.com, direct
+HOST-SUFFIX, bcvbw.com, direct
+HOST-SUFFIX, cheng.xin, direct
+HOST-SUFFIX, dayu.com, direct
+HOST-SUFFIX, dongting.com, direct
+HOST-SUFFIX, dratio.com, direct
+HOST-SUFFIX, emas-poc.com, direct
+HOST-SUFFIX, ialicdn.com, direct
+HOST-SUFFIX, kanbox.com, direct
+HOST-SUFFIX, lazada.com, direct
+HOST-SUFFIX, liangxinyao.com, direct
+HOST-SUFFIX, maitix.com, direct
+HOST-SUFFIX, 1688.com, direct
+HOST-SUFFIX, etao.com, direct
+HOST-SUFFIX, juhuasuan.com, direct
+HOST-SUFFIX, lingshoujia.com, direct
+HOST-SUFFIX, pailitao.com, direct
+HOST-SUFFIX, taobao.com, direct
+HOST-SUFFIX, taobao.org, direct
+HOST-SUFFIX, taobaocdn.com, direct
+HOST-SUFFIX, taobizhong.com, direct
+HOST-SUFFIX, taopiaopiao.com, direct
+HOST-SUFFIX, tbcache.com, direct
+HOST-SUFFIX, tburl.in, direct
+HOST-SUFFIX, tmall.com, direct
+HOST-SUFFIX, tmall.ru, direct
+HOST-SUFFIX, tmalltv.com, direct
+HOST-SUFFIX, tmjl.ai, direct
+HOST-SUFFIX, alitrip.com, direct
+HOST-SUFFIX, feizhu.com, direct
+HOST-SUFFIX, fliggy.com, direct
 
-# DIRECTEND
+# directEND
 
 # STEAM CDN
-HOST,csgo.wmsj.cn,Proxy
-HOST,dl.steam.clngaa.com,Proxy
-HOST,dl.steam.ksyna.com,Proxy
-HOST,dota2.wmsj.cn,Proxy
-HOST,st.dl.bscstorage.net,Proxy
-HOST,st.dl.eccdnx.com,Proxy
-HOST,st.dl.pinyuncloud.com,Proxy
-HOST,steampipe.steamcontent.tnkjmec.com,Proxy
-HOST,steampowered.com.8686c.com,Proxy
-HOST,steamstatic.com.8686c.com,Proxy
-HOST,wmsjsteam.com,Proxy
-HOST-SUFFIX,cm.steampowered.com,Proxy
-HOST-SUFFIX,steamchina.com,Proxy
-HOST-SUFFIX,steamcontent.com,Proxy
-HOST-SUFFIX,steamusercontent.com,Proxy
-HOST-SUFFIX,fanatical.com,Proxy
-HOST-SUFFIX,humblebundle.com,Proxy
-HOST-SUFFIX,steamcommunity.com,Proxy
-HOST-SUFFIX,steampowered.com,Proxy
-HOST-SUFFIX,steamstatic.com,Proxy
-HOST-SUFFIX,steam-chat.com,Proxy
-HOST-SUFFIX,steamusercontent.com,Proxy
-HOST-SUFFIX,valvesoftware.com,Proxy
-HOST-KEYWORD,steamuserimages,Proxy
-HOST-KEYWORD,steamcontent,Proxy
-HOST,steambroadcast.akamaized.net,Proxy
-HOST,steamcdn-a.akamaihd.net,Proxy
-HOST,steamcommunity-a.akamaihd.net,Proxy
-HOST,steampipe.akamaized.net,Proxy
-HOST,steamstore-a.akamaihd.net,Proxy
-HOST,steamusercontent-a.akamaihd.net,Proxy
-HOST,steamuserimages-a.akamaihd.net,Proxy
-HOST-SUFFIX,fanatical.com,Proxy
-HOST-SUFFIX,humblebundle.com,Proxy
-HOST-SUFFIX,playartifact.com,Proxy
-HOST-SUFFIX,steam-chat.com,Proxy
-HOST-SUFFIX,steamcommunity.com,Proxy
-HOST-SUFFIX,steamgames.com,Proxy
-HOST-SUFFIX,steampowered.com,Proxy
-HOST-SUFFIX,steamserver.net,Proxy
-HOST-SUFFIX,steamstat.us,Proxy
-HOST-SUFFIX,steamstatic.com,Proxy
-HOST-SUFFIX,underlords.com,Proxy
-HOST-SUFFIX,valvesoftware.com,Proxy
+HOST, csgo.wmsj.cn, proxy
+HOST, dl.steam.clngaa.com, proxy
+HOST, dl.steam.ksyna.com, proxy
+HOST, dota2.wmsj.cn, proxy
+HOST, st.dl.bscstorage.net, proxy
+HOST, st.dl.eccdnx.com, proxy
+HOST, st.dl.pinyuncloud.com, proxy
+HOST, steampipe.steamcontent.tnkjmec.com, proxy
+HOST, steampowered.com.8686c.com, proxy
+HOST, steamstatic.com.8686c.com, proxy
+HOST, wmsjsteam.com, proxy
+HOST-SUFFIX, cm.steampowered.com, proxy
+HOST-SUFFIX, steamchina.com, proxy
+HOST-SUFFIX, steamcontent.com, proxy
+HOST-SUFFIX, steamusercontent.com, proxy
+HOST-SUFFIX, fanatical.com, proxy
+HOST-SUFFIX, humblebundle.com, proxy
+HOST-SUFFIX, steamcommunity.com, proxy
+HOST-SUFFIX, steampowered.com, proxy
+HOST-SUFFIX, steamstatic.com, proxy
+HOST-SUFFIX, steam-chat.com, proxy
+HOST-SUFFIX, steamusercontent.com, proxy
+HOST-SUFFIX, valvesoftware.com, proxy
+HOST-KEYWORD, steamuserimages, proxy
+HOST-KEYWORD, steamcontent, proxy
+HOST, steambroadcast.akamaized.net, proxy
+HOST, steamcdn-a.akamaihd.net, proxy
+HOST, steamcommunity-a.akamaihd.net, proxy
+HOST, steampipe.akamaized.net, proxy
+HOST, steamstore-a.akamaihd.net, proxy
+HOST, steamusercontent-a.akamaihd.net, proxy
+HOST, steamuserimages-a.akamaihd.net, proxy
+HOST-SUFFIX, fanatical.com, proxy
+HOST-SUFFIX, humblebundle.com, proxy
+HOST-SUFFIX, playartifact.com, proxy
+HOST-SUFFIX, steam-chat.com, proxy
+HOST-SUFFIX, steamcommunity.com, proxy
+HOST-SUFFIX, steamgames.com, proxy
+HOST-SUFFIX, steampowered.com, proxy
+HOST-SUFFIX, steamserver.net, proxy
+HOST-SUFFIX, steamstat.us, proxy
+HOST-SUFFIX, steamstatic.com, proxy
+HOST-SUFFIX, underlords.com, proxy
+HOST-SUFFIX, valvesoftware.com, proxy
 
 # Epic
-HOST-SUFFIX,epicgames.com,Proxy
-HOST-SUFFIX,helpshift.com,Proxy
-HOST-SUFFIX,paragon.com,Proxy
-HOST-SUFFIX,unrealengine.com,Proxy
-HOST-SUFFIX,ol.epicgames.com,Proxy
+HOST-SUFFIX, epicgames.com, proxy
+HOST-SUFFIX, helpshift.com, proxy
+HOST-SUFFIX, paragon.com, proxy
+HOST-SUFFIX, unrealengine.com, proxy
+HOST-SUFFIX, ol.epicgames.com, proxy
 
 # > Epicgames
-HOST-KEYWORD,epicgames,Proxy
-HOST-SUFFIX,helpshift.com,Proxy
+HOST-KEYWORD, epicgames, proxy
+HOST-SUFFIX, helpshift.com, proxy
 
 
 # debug
-HOST,ip.sb,Proxy
-HOST,myip.ipip.net,Streaming
-HOST,ifconfig.me,Netflix
+HOST, ip.sb, proxy
+HOST, myip.ipip.net, Streaming
+HOST, ifconfig.me, Netflix
 
 # hot fix
-HOST-KEYWORD,discord,Proxy
-HOST,services.googleapis.cn,Proxy
-HOST,googleapis.cn,Proxy
-HOST-SUFFIX,ping.pe,Proxy
-HOST-SUFFIX,f2pool.com,Proxy
-HOST-SUFFIX,static.wikia.nocookie.net,Proxy
+HOST-KEYWORD, discord, proxy
+HOST, services.googleapis.cn, proxy
+HOST, googleapis.cn, proxy
+HOST-SUFFIX, ping.pe, proxy
+HOST-SUFFIX, f2pool.com, proxy
+HOST-SUFFIX, static.wikia.nocookie.net, proxy
 
 # Discord
-HOST-SUFFIX,discord.co,Proxy
-HOST-SUFFIX,discord.com,Proxy
-HOST-SUFFIX,discord.gg,Proxy
-HOST-SUFFIX,discord.media,Proxy
-HOST-SUFFIX,discordapp.com,Proxy
-HOST-SUFFIX,discordapp.net,Proxy
+HOST-SUFFIX, discord.co, proxy
+HOST-SUFFIX, discord.com, proxy
+HOST-SUFFIX, discord.gg, proxy
+HOST-SUFFIX, discord.media, proxy
+HOST-SUFFIX, discordapp.com, proxy
+HOST-SUFFIX, discordapp.net, proxy
 
 # common site
-HOST,services.googleapis.cn,Proxy
-HOST,google.com,Proxy
-HOST-SUFFIX,google.cn,Proxy
-HOST-SUFFIX,googleapis.cn,Proxy
-HOST-KEYWORD,facebook,Proxy
-HOST-SUFFIX,fb.me,Proxy
-HOST-KEYWORD,gmail,Proxy
-HOST-KEYWORD,twitter,Proxy
-HOST-KEYWORD,instagram,Proxy
-HOST-SUFFIX,twimg.com,Proxy
-HOST-KEYWORD,blogspot,Proxy
-HOST-KEYWORD,whatsapp,Proxy
-HOST-KEYWORD,glados,Proxy
-HOST-KEYWORD,wikipedia,Proxy
-HOST-SUFFIX,google.com,Proxy
-HOST-SUFFIX,facebook.com,Proxy
-HOST-SUFFIX,yahoo.com,Proxy
-HOST-SUFFIX,amazon.com,Proxy
-HOST-SUFFIX,vk.com,Proxy
-HOST-SUFFIX,reddit.com,Proxy
-HOST-SUFFIX,live.com,Proxy
-HOST-SUFFIX,zoom.us,Proxy
-HOST-SUFFIX,wikipedia.org,Proxy
-HOST-SUFFIX,myshopify.com,Proxy
-HOST-SUFFIX,instagram.com,Proxy
-HOST-SUFFIX,okezone.com,Proxy
-HOST-SUFFIX,office.com,Proxy
-HOST-SUFFIX,ebay.com,Proxy
-HOST-SUFFIX,bongacams.com,Proxy
-HOST-SUFFIX,blogspot.com,Proxy
-HOST-SUFFIX,yahoo.co.jp,Proxy
-HOST-SUFFIX,babytree.com,Proxy
-HOST-SUFFIX,amazon.co.jp,Proxy
-HOST-SUFFIX,adobe.com,Proxy
-HOST-SUFFIX,livejasmin.com,Proxy
-HOST-SUFFIX,stackoverflow.com,Proxy
-HOST-SUFFIX,dropbox.com,Proxy
-HOST-SUFFIX,msn.com,Proxy
-HOST-SUFFIX,yandex.ru,Proxy
-HOST-SUFFIX,linkedin.com,Proxy
-HOST-SUFFIX,twitter.com,Proxy
-HOST-SUFFIX,imgur.com,Proxy
-HOST-SUFFIX,amazonaws.com,Proxy
-HOST-SUFFIX,imdb.com,Proxy
-HOST-SUFFIX,whatsapp.com,Proxy
-HOST-SUFFIX,google.co.jp,Proxy
-HOST-SUFFIX,wordpress.com,Proxy
-HOST-SUFFIX,nytimes.com,Proxy
-HOST-SUFFIX,spotify.com,Proxy
+HOST, services.googleapis.cn, proxy
+HOST, google.com, proxy
+HOST-SUFFIX, google.cn, proxy
+HOST-SUFFIX, googleapis.cn, proxy
+HOST-KEYWORD, facebook, proxy
+HOST-SUFFIX, fb.me, proxy
+HOST-KEYWORD, gmail, proxy
+HOST-KEYWORD, twitter, proxy
+HOST-KEYWORD, instagram, proxy
+HOST-SUFFIX, twimg.com, proxy
+HOST-KEYWORD, blogspot, proxy
+HOST-KEYWORD, whatsapp, proxy
+HOST-KEYWORD, glados, proxy
+HOST-KEYWORD, wikipedia, proxy
+HOST-SUFFIX, google.com, proxy
+HOST-SUFFIX, facebook.com, proxy
+HOST-SUFFIX, yahoo.com, proxy
+HOST-SUFFIX, amazon.com, proxy
+HOST-SUFFIX, vk.com, proxy
+HOST-SUFFIX, reddit.com, proxy
+HOST-SUFFIX, live.com, proxy
+HOST-SUFFIX, zoom.us, proxy
+HOST-SUFFIX, wikipedia.org, proxy
+HOST-SUFFIX, myshopify.com, proxy
+HOST-SUFFIX, instagram.com, proxy
+HOST-SUFFIX, okezone.com, proxy
+HOST-SUFFIX, office.com, proxy
+HOST-SUFFIX, ebay.com, proxy
+HOST-SUFFIX, bongacams.com, proxy
+HOST-SUFFIX, blogspot.com, proxy
+HOST-SUFFIX, yahoo.co.jp, proxy
+HOST-SUFFIX, babytree.com, proxy
+HOST-SUFFIX, amazon.co.jp, proxy
+HOST-SUFFIX, adobe.com, proxy
+HOST-SUFFIX, livejasmin.com, proxy
+HOST-SUFFIX, stackoverflow.com, proxy
+HOST-SUFFIX, dropbox.com, proxy
+HOST-SUFFIX, msn.com, proxy
+HOST-SUFFIX, yandex.ru, proxy
+HOST-SUFFIX, linkedin.com, proxy
+HOST-SUFFIX, twitter.com, proxy
+HOST-SUFFIX, imgur.com, proxy
+HOST-SUFFIX, amazonaws.com, proxy
+HOST-SUFFIX, imdb.com, proxy
+HOST-SUFFIX, whatsapp.com, proxy
+HOST-SUFFIX, google.co.jp, proxy
+HOST-SUFFIX, wordpress.com, proxy
+HOST-SUFFIX, nytimes.com, proxy
+HOST-SUFFIX, spotify.com, proxy
 
-# Proxy CDN
-HOST-SUFFIX,s3.amazonaws.com,Streaming
-HOST-KEYWORD,akam,Streaming
+# proxy CDN
+HOST-SUFFIX, s3.amazonaws.com, Streaming
+HOST-KEYWORD, akam, Streaming
 
 # Streaming
-HOST-KEYWORD,youtube,Streaming
-HOST-SUFFIX,phncdn.com,Streaming
-HOST-SUFFIX,phprcdn.com,Streaming
-HOST-SUFFIX,youtu.be,Streaming
-HOST-SUFFIX,googlevideo.com,Streaming
-HOST-SUFFIX,ytimg.com,Streaming
-HOST-SUFFIX,googleusercontent.com,Streaming
-HOST-KEYWORD,twitch,Streaming
+HOST-KEYWORD, youtube, Streaming
+HOST-SUFFIX, phncdn.com, Streaming
+HOST-SUFFIX, phprcdn.com, Streaming
+HOST-SUFFIX, youtu.be, Streaming
+HOST-SUFFIX, googlevideo.com, Streaming
+HOST-SUFFIX, ytimg.com, Streaming
+HOST-SUFFIX, googleusercontent.com, Streaming
+HOST-KEYWORD, twitch, Streaming
 
 #Netflix
-HOST-KEYWORD,netflix,Netflix
-HOST-SUFFIX,netflix.com,Netflix
-HOST-SUFFIX,netflix.net,Netflix
-HOST-SUFFIX,nflxext.com,Netflix
-HOST-SUFFIX,nflximg.com,Netflix
-HOST-SUFFIX,nflximg.net,Netflix
-HOST-SUFFIX,nflxso.net,Netflix
-HOST-KEYWORD,dualstack.apiproxy-,Netflix
-HOST-KEYWORD,dualstack.ichnaea-web-,Netflix
-HOST-SUFFIX,netflix.com.edgesuite.net,Netflix
-HOST-SUFFIX,us-west-2.amazonaws.com,Netflix
-HOST-KEYWORD,apiproxy-device-prod-nlb-,Netflix
-HOST-KEYWORD,ichnaea-web-,Netflix
-HOST,netflix.com.edgesuite.net,Netflix
-HOST-SUFFIX,netflix.com,Netflix
-HOST-SUFFIX,netflix.net,Netflix
-HOST-SUFFIX,nflxext.com,Netflix
-HOST-SUFFIX,nflximg.com,Netflix
-HOST-SUFFIX,nflximg.net,Netflix
-HOST-SUFFIX,nflxso.net,Netflix
-HOST-SUFFIX,nflxvideo.net,Netflix
+HOST-KEYWORD, netflix, Netflix
+HOST-SUFFIX, netflix.com, Netflix
+HOST-SUFFIX, netflix.net, Netflix
+HOST-SUFFIX, nflxext.com, Netflix
+HOST-SUFFIX, nflximg.com, Netflix
+HOST-SUFFIX, nflximg.net, Netflix
+HOST-SUFFIX, nflxso.net, Netflix
+HOST-KEYWORD, dualstack.apiproxy-, Netflix
+HOST-KEYWORD, dualstack.ichnaea-web-, Netflix
+HOST-SUFFIX, netflix.com.edgesuite.net, Netflix
+HOST-SUFFIX, us-west-2.amazonaws.com, Netflix
+HOST-KEYWORD, apiproxy-device-prod-nlb-, Netflix
+HOST-KEYWORD, ichnaea-web-, Netflix
+HOST, netflix.com.edgesuite.net, Netflix
+HOST-SUFFIX, netflix.com, Netflix
+HOST-SUFFIX, netflix.net, Netflix
+HOST-SUFFIX, nflxext.com, Netflix
+HOST-SUFFIX, nflximg.com, Netflix
+HOST-SUFFIX, nflximg.net, Netflix
+HOST-SUFFIX, nflxso.net, Netflix
+HOST-SUFFIX, nflxvideo.net, Netflix
 
 # > Fox+
-HOST-KEYWORD,foxplus,Netflix
-HOST-SUFFIX,config.fox.com,Netflix
-HOST-SUFFIX,emome.net,Netflix
-HOST-SUFFIX,fox.com,Netflix
-HOST-SUFFIX,foxdcg.com,Netflix
-HOST-SUFFIX,foxnow.com,Netflix
-HOST-SUFFIX,foxplus.com,Netflix
-HOST-SUFFIX,foxplay.com,Netflix
-HOST-SUFFIX,ipinfo.io,Netflix
-HOST-SUFFIX,mstage.io,Netflix
-HOST-SUFFIX,now.com,Netflix
-HOST-SUFFIX,theplatform.com,Netflix
-HOST-SUFFIX,urlload.net,Netflix
+HOST-KEYWORD, foxplus, Netflix
+HOST-SUFFIX, config.fox.com, Netflix
+HOST-SUFFIX, emome.net, Netflix
+HOST-SUFFIX, fox.com, Netflix
+HOST-SUFFIX, foxdcg.com, Netflix
+HOST-SUFFIX, foxnow.com, Netflix
+HOST-SUFFIX, foxplus.com, Netflix
+HOST-SUFFIX, foxplay.com, Netflix
+HOST-SUFFIX, ipinfo.io, Netflix
+HOST-SUFFIX, mstage.io, Netflix
+HOST-SUFFIX, now.com, Netflix
+HOST-SUFFIX, theplatform.com, Netflix
+HOST-SUFFIX, urlload.net, Netflix
 
 # > HBO && HBO Go
-HOST-SUFFIX,hbo.com,Netflix
-HOST-SUFFIX,hboasia.com,Netflix
-HOST-SUFFIX,hbogo.com,Netflix
-HOST-SUFFIX,hbogoasia.hk,Netflix
+HOST-SUFFIX, hbo.com, Netflix
+HOST-SUFFIX, hboasia.com, Netflix
+HOST-SUFFIX, hbogo.com, Netflix
+HOST-SUFFIX, hbogoasia.hk, Netflix
 
 # > Hulu
-HOST-SUFFIX,hulu.com,Netflix
-HOST-SUFFIX,huluim.com,Netflix
-HOST-SUFFIX,hulustream.com,Netflix
+HOST-SUFFIX, hulu.com, Netflix
+HOST-SUFFIX, huluim.com, Netflix
+HOST-SUFFIX, hulustream.com, Netflix
 
 # Fast.com
-HOST-SUFFIX,fast.com,Netflix
-HOST-SUFFIX,oca.nflxvideo.net,Netflix
-HOST-SUFFIX,nflxvideo.net,Netflix
+HOST-SUFFIX, fast.com, Netflix
+HOST-SUFFIX, oca.nflxvideo.net, Netflix
+HOST-SUFFIX, nflxvideo.net, Netflix
 
 # > Disney
-HOST,cdn.registerdisney.go.com,Netflix
-HOST-SUFFIX,adobedtm.com,Netflix
-HOST-SUFFIX,bam.nr-data.net,Netflix
-HOST-SUFFIX,bamgrid.com,Netflix
-HOST-SUFFIX,braze.com,Netflix
-HOST-SUFFIX,cdn.optimizely.com,Netflix
-HOST-SUFFIX,cdn.registerdisney.go.com,Netflix
-HOST-SUFFIX,cws.conviva.com,Netflix
-HOST-SUFFIX,d9.flashtalking.com,Netflix
-HOST-SUFFIX,disney-plus.net,Netflix
-HOST-SUFFIX,disney-portal.my.onetrust.com,Netflix
-HOST-SUFFIX,disney.demdex.net,Netflix
-HOST-SUFFIX,disney.my.sentry.io,Netflix
-HOST-SUFFIX,disneyplus.bn5x.net,Netflix
-HOST-SUFFIX,disneyplus.com,Netflix
-HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,Netflix
-HOST-SUFFIX,disneystreaming.com,Netflix
-HOST-SUFFIX,dssott.com,Netflix
-HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,Netflix
-HOST-SUFFIX,js-agent.newrelic.com,Netflix
+HOST, cdn.registerdisney.go.com, Netflix
+HOST-SUFFIX, adobedtm.com, Netflix
+HOST-SUFFIX, bam.nr-data.net, Netflix
+HOST-SUFFIX, bamgrid.com, Netflix
+HOST-SUFFIX, braze.com, Netflix
+HOST-SUFFIX, cdn.optimizely.com, Netflix
+HOST-SUFFIX, cdn.registerdisney.go.com, Netflix
+HOST-SUFFIX, cws.conviva.com, Netflix
+HOST-SUFFIX, d9.flashtalking.com, Netflix
+HOST-SUFFIX, disney-plus.net, Netflix
+HOST-SUFFIX, disney-portal.my.onetrust.com, Netflix
+HOST-SUFFIX, disney.demdex.net, Netflix
+HOST-SUFFIX, disney.my.sentry.io, Netflix
+HOST-SUFFIX, disneyplus.bn5x.net, Netflix
+HOST-SUFFIX, disneyplus.com, Netflix
+HOST-SUFFIX, disneyplus.com.ssl.sc.omtrdc.net, Netflix
+HOST-SUFFIX, disneystreaming.com, Netflix
+HOST-SUFFIX, dssott.com, Netflix
+HOST-SUFFIX, execute-api.us-east-1.amazonaws.com, Netflix
+HOST-SUFFIX, js-agent.newrelic.com, Netflix
 
 # > ABC
-HOST-SUFFIX,edgedatg.com,Streaming
-HOST-SUFFIX,go.com,Streaming
+HOST-SUFFIX, edgedatg.com, Streaming
+HOST-SUFFIX, go.com, Streaming
 
 # > AbemaTV
-HOST,linear-abematv.akamaized.net,Streaming
-HOST-SUFFIX,abema.io,Streaming
-HOST-SUFFIX,abema.tv,Streaming
-HOST-SUFFIX,akamaized.net,Streaming
-HOST-SUFFIX,ameba.jp,Streaming
-HOST-SUFFIX,hayabusa.io,Streaming
+HOST, linear-abematv.akamaized.net, Streaming
+HOST-SUFFIX, abema.io, Streaming
+HOST-SUFFIX, abema.tv, Streaming
+HOST-SUFFIX, akamaized.net, Streaming
+HOST-SUFFIX, ameba.jp, Streaming
+HOST-SUFFIX, hayabusa.io, Streaming
 
 # > Amazon Prime Streaming
-HOST-SUFFIX,aiv-cdn.net,Streaming
-HOST-SUFFIX,amazonaws.com,Streaming
-HOST-SUFFIX,amazonvideo.com,Streaming
-HOST-SUFFIX,llnwd.net,Streaming
+HOST-SUFFIX, aiv-cdn.net, Streaming
+HOST-SUFFIX, amazonaws.com, Streaming
+HOST-SUFFIX, amazonvideo.com, Streaming
+HOST-SUFFIX, llnwd.net, Streaming
 
 # > Bahamut
-HOST-SUFFIX,bahamut.com.tw,Netflix
-HOST-SUFFIX,gamer.com.tw,Netflix
-HOST-SUFFIX,hinet.net,Netflix
+HOST-SUFFIX, bahamut.com.tw, Netflix
+HOST-SUFFIX, gamer.com.tw, Netflix
+HOST-SUFFIX, hinet.net, Netflix
 
 # > BBC
-HOST-KEYWORD,bbcfmt,Streaming
-HOST-KEYWORD,co.uk,Streaming
-HOST-KEYWORD,uk-live,Streaming
-HOST-SUFFIX,bbc.co,Streaming
-HOST-SUFFIX,bbc.co.uk,Streaming
-HOST-SUFFIX,bbc.com,Streaming
-HOST-SUFFIX,bbci.co,Streaming
-HOST-SUFFIX,bbci.co.uk,Streaming
+HOST-KEYWORD, bbcfmt, Streaming
+HOST-KEYWORD, co.uk, Streaming
+HOST-KEYWORD, uk-live, Streaming
+HOST-SUFFIX, bbc.co, Streaming
+HOST-SUFFIX, bbc.co.uk, Streaming
+HOST-SUFFIX, bbc.com, Streaming
+HOST-SUFFIX, bbci.co, Streaming
+HOST-SUFFIX, bbci.co.uk, Streaming
 
 # > CHOCO TV
-HOST-SUFFIX,chocotv.com.tw,Streaming
+HOST-SUFFIX, chocotv.com.tw, Streaming
 
 
 # > Imkan
-HOST-SUFFIX,imkan.tv,Streaming
+HOST-SUFFIX, imkan.tv, Streaming
 
 # > JOOX
-HOST-SUFFIX,joox.com,Streaming
+HOST-SUFFIX, joox.com, Streaming
 
 # > MytvSUPER
-HOST-KEYWORD,nowtv100,Streaming
-HOST-KEYWORD,rthklive,Streaming
-HOST-SUFFIX,mytvsuper.com,Streaming
-HOST-SUFFIX,tvb.com,Streaming
+HOST-KEYWORD, nowtv100, Streaming
+HOST-KEYWORD, rthklive, Streaming
+HOST-SUFFIX, mytvsuper.com, Streaming
+HOST-SUFFIX, tvb.com, Streaming
 
 # > Pandora
-HOST-SUFFIX,pandora.com,Streaming
+HOST-SUFFIX, pandora.com, Streaming
 
 # > Sky GO
-HOST-SUFFIX,sky.com,Streaming
-HOST-SUFFIX,skygo.co.nz,Streaming
+HOST-SUFFIX, sky.com, Streaming
+HOST-SUFFIX, skygo.co.nz, Streaming
 
 # > Spotify
-HOST-KEYWORD,spotify,Streaming
-HOST-SUFFIX,scdn.co,Streaming
-HOST-SUFFIX,spoti.fi,Streaming
+HOST-KEYWORD, spotify, Streaming
+HOST-SUFFIX, scdn.co, Streaming
+HOST-SUFFIX, spoti.fi, Streaming
 
 # > viuTV
-HOST-SUFFIX,viu.tv,Streaming
+HOST-SUFFIX, viu.tv, Streaming
 
 # > Youtube
-HOST-KEYWORD,youtube,Streaming
-HOST-SUFFIX,googlevideo.com,Streaming
-HOST-SUFFIX,gvt2.com,Streaming
-HOST-SUFFIX,youtu.be,Streaming
-HOST-SUFFIX,youtu.be,Streaming
-HOST-SUFFIX,yt.be,Streaming
-HOST-SUFFIX,ytimg.com,Streaming
-HOST-KEYWORD,pornhub,Streaming
-HOST-KEYWORD,porn,Streaming
-HOST-KEYWORD,phncdn,Streaming
-HOST-SUFFIX,vimeo.com,Streaming
-HOST-SUFFIX,vimeocdn.com,Streaming
+HOST-KEYWORD, youtube, Streaming
+HOST-SUFFIX, googlevideo.com, Streaming
+HOST-SUFFIX, gvt2.com, Streaming
+HOST-SUFFIX, youtu.be, Streaming
+HOST-SUFFIX, youtu.be, Streaming
+HOST-SUFFIX, yt.be, Streaming
+HOST-SUFFIX, ytimg.com, Streaming
+HOST-KEYWORD, pornhub, Streaming
+HOST-KEYWORD, porn, Streaming
+HOST-KEYWORD, phncdn, Streaming
+HOST-SUFFIX, vimeo.com, Streaming
+HOST-SUFFIX, vimeocdn.com, Streaming
 
 # > Google
-HOST-KEYWORD,google,Proxy
-HOST-SUFFIX,abc.xyz,Proxy
-HOST-SUFFIX,android.com,Proxy
-HOST-SUFFIX,androidify.com,Proxy
-HOST-SUFFIX,dialogflow.com,Proxy
-HOST-SUFFIX,autodraw.com,Proxy
-HOST-SUFFIX,capitalg.com,Proxy
-HOST-SUFFIX,certificate-transparency.org,Proxy
-HOST-SUFFIX,chrome.com,Proxy
-HOST-SUFFIX,chromeexperiments.com,Proxy
-HOST-SUFFIX,chromestatus.com,Proxy
-HOST-SUFFIX,chromium.org,Proxy
-HOST-SUFFIX,creativelab5.com,Proxy
-HOST-SUFFIX,debug.com,Proxy
-HOST-SUFFIX,deepmind.com,Proxy
-HOST-SUFFIX,firebaseio.com,Proxy
-HOST-SUFFIX,getmdl.io,Proxy
-HOST-SUFFIX,ggpht.com,Proxy
-HOST-SUFFIX,gmail.com,Proxy
-HOST-SUFFIX,gmodules.com,Proxy
-HOST-SUFFIX,godoc.org,Proxy
-HOST-SUFFIX,golang.org,Proxy
-HOST-SUFFIX,gv.com,Proxy
-HOST-SUFFIX,gwtproject.org,Proxy
-HOST-SUFFIX,itasoftware.com,Proxy
-HOST-SUFFIX,madewithcode.com,Proxy
-HOST-SUFFIX,material.io,Proxy
-HOST-SUFFIX,polymer-project.org,Proxy
-HOST-SUFFIX,admin.recaptcha.net,Proxy
-HOST-SUFFIX,recaptcha.net,Proxy
-HOST-SUFFIX,shattered.io,Proxy
-HOST-SUFFIX,synergyse.com,Proxy
-HOST-SUFFIX,tensorflow.org,Proxy
-HOST-SUFFIX,tiltbrush.com,Proxy
-HOST-SUFFIX,waveprotocol.org,Proxy
-HOST-SUFFIX,waymo.com,Proxy
-HOST-SUFFIX,webmproject.org,Proxy
-HOST-SUFFIX,webrtc.org,Proxy
-HOST-SUFFIX,whatbrowser.org,Proxy
-HOST-SUFFIX,widevine.com,Proxy
-HOST-SUFFIX,x.company,Proxy
-HOST-SUFFIX,contest.com,Proxy
-HOST-SUFFIX,graph.org,Proxy
-HOST-SUFFIX,quiz.directory,Proxy
-HOST-SUFFIX,t.me,Proxy
-HOST-SUFFIX,tdesktop.com,Proxy
-HOST-SUFFIX,telega.one,Proxy
-HOST-SUFFIX,telegra.ph,Proxy
-HOST-SUFFIX,telegram.dog,Proxy
-HOST-SUFFIX,telegram.me,Proxy
-HOST-SUFFIX,telegram.org,Proxy
-HOST-SUFFIX,telegram.space,Proxy
-HOST-SUFFIX,telesco.pe,Proxy
-HOST-SUFFIX,tg.dev,Proxy
-HOST-SUFFIX,tx.me,Proxy
-HOST-SUFFIX,usercontent.dev,Proxy
+HOST-KEYWORD, google, proxy
+HOST-SUFFIX, abc.xyz, proxy
+HOST-SUFFIX, android.com, proxy
+HOST-SUFFIX, androidify.com, proxy
+HOST-SUFFIX, dialogflow.com, proxy
+HOST-SUFFIX, autodraw.com, proxy
+HOST-SUFFIX, capitalg.com, proxy
+HOST-SUFFIX, certificate-transparency.org, proxy
+HOST-SUFFIX, chrome.com, proxy
+HOST-SUFFIX, chromeexperiments.com, proxy
+HOST-SUFFIX, chromestatus.com, proxy
+HOST-SUFFIX, chromium.org, proxy
+HOST-SUFFIX, creativelab5.com, proxy
+HOST-SUFFIX, debug.com, proxy
+HOST-SUFFIX, deepmind.com, proxy
+HOST-SUFFIX, firebaseio.com, proxy
+HOST-SUFFIX, getmdl.io, proxy
+HOST-SUFFIX, ggpht.com, proxy
+HOST-SUFFIX, gmail.com, proxy
+HOST-SUFFIX, gmodules.com, proxy
+HOST-SUFFIX, godoc.org, proxy
+HOST-SUFFIX, golang.org, proxy
+HOST-SUFFIX, gv.com, proxy
+HOST-SUFFIX, gwtproject.org, proxy
+HOST-SUFFIX, itasoftware.com, proxy
+HOST-SUFFIX, madewithcode.com, proxy
+HOST-SUFFIX, material.io, proxy
+HOST-SUFFIX, polymer-project.org, proxy
+HOST-SUFFIX, admin.recaptcha.net, proxy
+HOST-SUFFIX, recaptcha.net, proxy
+HOST-SUFFIX, shattered.io, proxy
+HOST-SUFFIX, synergyse.com, proxy
+HOST-SUFFIX, tensorflow.org, proxy
+HOST-SUFFIX, tiltbrush.com, proxy
+HOST-SUFFIX, waveprotocol.org, proxy
+HOST-SUFFIX, waymo.com, proxy
+HOST-SUFFIX, webmproject.org, proxy
+HOST-SUFFIX, webrtc.org, proxy
+HOST-SUFFIX, whatbrowser.org, proxy
+HOST-SUFFIX, widevine.com, proxy
+HOST-SUFFIX, x.company, proxy
+HOST-SUFFIX, contest.com, proxy
+HOST-SUFFIX, graph.org, proxy
+HOST-SUFFIX, quiz.directory, proxy
+HOST-SUFFIX, t.me, proxy
+HOST-SUFFIX, tdesktop.com, proxy
+HOST-SUFFIX, telega.one, proxy
+HOST-SUFFIX, telegra.ph, proxy
+HOST-SUFFIX, telegram.dog, proxy
+HOST-SUFFIX, telegram.me, proxy
+HOST-SUFFIX, telegram.org, proxy
+HOST-SUFFIX, telegram.space, proxy
+HOST-SUFFIX, telesco.pe, proxy
+HOST-SUFFIX, tg.dev, proxy
+HOST-SUFFIX, tx.me, proxy
+HOST-SUFFIX, usercontent.dev, proxy
