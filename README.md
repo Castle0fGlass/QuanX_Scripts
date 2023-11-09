@@ -1,8 +1,8 @@
 > QuanX configutation
 
-## [general] 部分
+### [general] 部分
 
-## [policy] 部分
+### [policy] 部分
 - static 策略组
 手动选择节点/策略组
 
