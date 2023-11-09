@@ -1,6 +1,8 @@
 > QuanX configutation
 
 ### [general] 部分
+> 资源解析器，可用于自定义各类远程资源的转换
+resource_parser_url= [https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js)
 
 ### [policy] 部分
 - static 策略组
