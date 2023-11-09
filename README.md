@@ -1,3 +1,4 @@
+> QuanX configutation
 
 ## [general] 部分
 
