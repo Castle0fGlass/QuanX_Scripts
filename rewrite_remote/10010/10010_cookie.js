@@ -1,17 +1,13 @@
 /*
 *************
 QuanX
-
 [MITM]
 hostname = act.10010.com, m.client.10010.com
 [rewrite_local]
 # 注意获取Cookie有两条脚本
-^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header 10010cookie.js
-^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header 10010.cookie.js
-^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header 10010.cookie.js
-
-[task_local]
-1 0 * * * 10010.js
+^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header https://raw.githubusercontent.com/Castle0fGlass/QuanX_Scripts/main/rewrite_remote/10010/10010_cookie.js
+^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header https://raw.githubusercontent.com/Castle0fGlass/QuanX_Scripts/main/rewrite_remote/10010/10010_cookie.js
+^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/Castle0fGlass/QuanX_Scripts/main/rewrite_remote/10010/10010_cookie.js
 
 *************
 */
