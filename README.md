@@ -3,17 +3,23 @@
 ### [general] 部分
 - 资源解析器，可用于自定义各类远程资源（服务器订阅、rewrite、filter）的转换
 
+  ```
   resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+  ```
 
 - running_mode_trigger 即根据网络自动切换 分流/直连/全局代理 等模式，跟手动切换直连/全局代理 等效，rewrite/task 模块始终会生效，比 ssid 策略组设置简单，比 ssid-suspend 更灵活
 
+  ```
   running_mode_trigger=filter, filter, [WIFI SSID1]:all_direct, [WIFI SSID2]:all_direct
+  ```
   
   上述写法，前两个 filter 先后表示 在 [数据蜂窝网络] 跟 [一般 Wi-Fi] 下，走 filter(分流)模式，后面则表示在 WIFI SSID1 下切换为全局直连[all_direct]，WIFI SSID2 下切换为全局代理[all_proxy]，相应 SSID 换成自己 Wi-Fi 名即可
 
 - ssid_suspended_list 让 Quantumult X 在特定 Wi-Fi 网络下暂停工作(仅 task 模块会继续工作)，多个Wi-Fi用“,”连接
 
+  ```
   ssid_suspended_list=[WIFI SSID1], [WIFI SSID2]
+  ```
 
 - server_check_url
 
