@@ -63,6 +63,34 @@
 
   根据你所设定的网络来自动切换节点/策略组
 
+### [filter] 部分
+[policy]（策略组） 是为 [filter]（分流）服务的
+如开启其他设置中的  “分流匹配优化” 选项，则匹配优先级为 host > host-suffix > host-keyword(wildcard) > geoip = ip-cidr > user-agent
+- host 完整域名匹配
+
+- host-keyword 域名关键词匹配
+
+- host-suffix 域名后缀匹配
+
+- host-wildcard 域名通配符匹配
+
+- user-agent 匹配
+
+```
+//强制分流走蜂窝网络
+;host-suffix, googleapis.com, proxy, force-cellular
+//让分流走蜂窝网络跟 Wi-Fi 中的优选结果
+;host-suffix, googleapis.com, proxy, multi-interface
+//让分流走蜂窝网络跟 Wi-Fi 中的负载均衡，提供更大带宽出入接口
+;host-suffix, googleapis.com, proxy, multi-interface-balance
+//指定分流走特定网络接口
+;host-suffix, googleapis.com, proxy, via-interface=pdp_ip0
+
+// %TUN% 参数，回传给 Quantumult X 接口，可用于曲线实现代理链功能
+;host-suffix, example.com, ServerA, via-interface=%TUN%
+;ip-cidr, ServerA's IP Range, ServerB
+```
+
 ### [task_local] 部分
 包含 3 种类型: cron 定时任务，UI交互脚本，网络切换脚本
 - cron 定时任务
