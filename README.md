@@ -1,4 +1,5 @@
 > QuanX configutation
+> 参考 https://github.com/KOP-XIAO/QuantumultX/blob/master/QuantumultX_Profiles.conf
 
 ### [general] 部分
 - 资源解析器，可用于自定义各类远程资源（服务器订阅、rewrite、filter）的转换
