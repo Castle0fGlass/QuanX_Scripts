@@ -64,6 +64,9 @@ HOST-SUFFIX, microsoftonline.com, DIRECT
 # Koofr
 HOST-SUFFIX, app.koofr.net, DIRECT
 
+# OneDrive for Business
+HOST-SUFFIX, svc.ms, DIRECT
+
 # DIRECTEND
 
 #dev
