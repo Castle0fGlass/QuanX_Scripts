@@ -67,9 +67,15 @@ HOST-SUFFIX, app.koofr.net, DIRECT
 # OneDrive for Business
 HOST-SUFFIX, svc.ms, DIRECT
 
+# Infuse Metadata
+HOST-SUFFIX, api.themoviedb.org, Proxy
+HOST-SUFFIX, api.themoviedb.org, Proxy
+HOST-SUFFIX, image.tmdb.org, Proxy
+HOST-SUFFIX, movie-img.infuse.im, Proxy
+
 # DIRECTEND
 
-#dev
+# dev
 HOST-SUFFIX, gstatic.com, Proxy
 HOST-SUFFIX, google.com, Proxy
 HOST-SUFFIX, figma.com, Proxy
@@ -92,11 +98,11 @@ HOST-SUFFIX, techsmith.com, Proxy
 HOST-SUFFIX, thepiratebay.org, Proxy
 HOST-SUFFIX, pinterest.com, Proxy
 
-#specific geo services
+# specific geo services
 HOST-SUFFIX, paypal.com, Proxy
 HOST-SUFFIX, stripe.com, Proxy
 
-##tiktok
+# tiktok
 HOST-SUFFIX, byteoversea.com, Scholar
 HOST-SUFFIX, muscdn.com, Scholar
 HOST-SUFFIX, musical.ly, Scholar
@@ -105,7 +111,7 @@ HOST-SUFFIX, tiktokcdn.com, Scholar
 HOST-SUFFIX, tiktok.com, Scholar
 HOST-SUFFIX, tiktokv.com, Scholar
 
-#specific scholar services
+# specific scholar services
 HOST-SUFFIX, ai.com, Scholar
 HOST-SUFFIX, openai.com, Scholar
 HOST, openaiapi-site.azureedge.net, Scholar
